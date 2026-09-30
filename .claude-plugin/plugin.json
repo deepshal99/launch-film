@@ -1,0 +1,10 @@
+{
+  "name": "launch-film",
+  "version": "1.0.0",
+  "description": "Turn a product idea into a premium, viral-ready launch video rendered from code: intake questions, inspiration analysis, beat-sheet script, frame-exact brief, deterministic HTML motion engine, original synthesized soundtrack, H.264 render.",
+  "author": { "name": "Deepak Maurya", "url": "https://github.com/deepshal99" },
+  "homepage": "https://github.com/deepshal99/launch-film",
+  "repository": "https://github.com/deepshal99/launch-film",
+  "license": "MIT",
+  "keywords": ["video", "motion-design", "launch", "marketing", "animation", "playwright", "ffmpeg", "soundtrack"]
+}

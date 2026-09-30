@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Launch film</title>
+<style>
+  /* setup.sh copies Inter into ./fonts. Swap in any woff2 family and update FILM meta.font. */
+  @font-face { font-family: Inter; font-weight: 400; src: url(fonts/inter-latin-400-normal.woff2) format('woff2'); }
+  @font-face { font-family: Inter; font-weight: 500; src: url(fonts/inter-latin-500-normal.woff2) format('woff2'); }
+  @font-face { font-family: Inter; font-weight: 600; src: url(fonts/inter-latin-600-normal.woff2) format('woff2'); }
+  @font-face { font-family: Inter; font-weight: 700; src: url(fonts/inter-latin-700-normal.woff2) format('woff2'); }
+  html, body { margin: 0; padding: 0; background: #000; }
+  #stage { position: relative; overflow: hidden; -webkit-font-smoothing: antialiased; }
+  #stage div { box-sizing: border-box; }
+  .shot { position: absolute; left: 0; top: 0; overflow: hidden; display: none; }
+  #fx { position: absolute; width: 0; height: 0; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<svg id="fx" xmlns="http://www.w3.org/2000/svg"><defs></defs></svg>
+<script src="engine.js"></script>
+<script src="film.js"></script>
+</body>
+</html>

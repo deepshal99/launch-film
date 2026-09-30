@@ -1,0 +1,19 @@
+{
+  "duration": 4.0,
+  "fps": 60,
+  "bpm": 128,
+  "beat0": 6,
+  "feel": "house",
+  "chords": ["Fmaj7", "Am7", "C", "G"],
+  "sections": [
+    { "type": "intro", "from": "b0", "to": "b2" },
+    { "type": "groove", "from": "b2", "to": "b7.5" },
+    { "type": "outro", "from": "b7.5", "to": "end" }
+  ],
+  "sfx": [
+    { "type": "pop", "t": "f4", "amp": 0.3, "freq": 820 },
+    { "type": "whoosh", "t": "f119", "pre": 0.3, "dir": 1, "amp": 0.5 },
+    { "type": "whoosh", "t": "f175", "pre": 0.25, "dir": -1, "amp": 0.35 },
+    { "type": "shimmer", "t": "f200", "amp": 0.1 }
+  ]
+}

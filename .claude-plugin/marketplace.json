@@ -1,0 +1,14 @@
+{
+  "name": "launch-film",
+  "description": "Code-rendered launch films: from a product idea to a viral-ready MP4.",
+  "owner": { "name": "Deepak Maurya", "url": "https://github.com/deepshal99" },
+  "plugins": [
+    {
+      "name": "launch-film",
+      "source": "./",
+      "description": "Premium, viral-ready launch videos rendered from code — intake → script → frame-exact brief → motion engine → original soundtrack → MP4.",
+      "version": "1.0.0",
+      "category": "design"
+    }
+  ]
+}
